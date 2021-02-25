@@ -28,3 +28,19 @@ print(a, " % ", b, " = ", hasil)
 #operasi floor division (lawan modulus)
 hasil = a // b
 print(a, " // ", b, " = ", hasil)
+
+#tes tes jpake modulus
+print("===test test modulus===")
+test = 4 % 5
+print(test)
+#prioritas operasi, operational presedence
+x = 3
+y = 2
+z = 4
+"""
+urutan
+1. ()
+2. eksponen
+3. perkalian, pembagian, modulus, floor division
+4. penjumlahan dan pengurangan
+"""
